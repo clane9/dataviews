@@ -26,6 +26,8 @@ setup(
     packages=["dataviews"],
     include_package_data=True,
     python_requires=">=3.7",
-    install_requires=[],
+    install_requires=[
+        "dill",
+    ],
     extras_require={},
 )
